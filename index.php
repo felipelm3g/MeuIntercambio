@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="imgs/favicon.ico" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2);">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2);float: left;width: 100%;">
             <a class="navbar-brand" href="#">
                 <img src="imgs/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Meu Intercâmbio
@@ -63,6 +63,9 @@
                         </div>
                     </li>
                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Ajuda</a>
                     </li>
                     <li class="nav-item">
@@ -85,10 +88,47 @@
             </div>
         </nav>
 
+        <main style="float: left;width: 100%;">
+            <div style="float: left;width: 100%; height: 400px;
+                 background-image: url(imgs/background1.webp);
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-position: center;
+                 background-size: cover;">
+
+                <div style="float: left; width:70%; margin-left: 15%;margin-right: 15%; margin-top: 70px; text-align: center; padding: 35px; border: 4px solid #007bff; background-color: rgb(0, 0, 0, 0.5);">
+                    <h2 style="float: left; font-size: 48px; width: 100%; margin: 0px; padding: 0px; color: #fff; text-shadow: 1px 1px 2px #000000;"><b>TIRE TODAS AS DÚVIDAS SOBRE INTERCÂMBIO</b></h2>
+                    <h4 style="float: left; margin-top: 5px; width: 100%; margin: 0px; padding: 0px; color: #fff; text-shadow: 1px 1px 2px #000000;">Entre em contato conosco.</h4>
+                    <button type="button" style="margin-top: 20px;" class="btn btn-primary">Fale Conosco</button>
+                </div>
+            </div>
+        </main>
+        
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        <p>TESTE</p><br>
+        
+
         <?php
         // put your code here
         ?>
-
+        
+        <script type="text/javascript" src="js/contato.js"></script>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
