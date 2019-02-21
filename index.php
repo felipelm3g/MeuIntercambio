@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="imgs/favicon.ico" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2);">
             <a class="navbar-brand" href="#">
                 <img src="imgs/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Meu Intercâmbio
@@ -23,28 +23,50 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="#">Início <span class="glyphicon glyphicon-euro"></span>  </a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Link </a>
-                    </li>
+                    <!--                    <li class="nav-item active">
+                                            <a class="nav-link" href="#">Câmbio </a>
+                                        </li>-->
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Destinos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp; Austrália</a>
-                            <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp; Canadá</a>
-                            <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2000px-Flag_of_the_United_States.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp; Estados Unidos</a>
-                            <a class="dropdown-item" href="#"><img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_700,h_420/https://www.canallondres.tv/wp-content/uploads/2017/10/Bandeira-da-Gra-Bretanha.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp; Inglaterra</a>
-                            <a class="dropdown-item" href="#"><img src="https://i1.wp.com/www.eurodicas.com.br/wp-content/uploads/2018/05/cores-da-bandeira-da-irlanda.jpg?zoom=2.625&w=1000&ssl=1" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp; Irlanda</a>
-                            <a class="dropdown-item" href="#"><img src="https://www.estudopratico.com.br/wp-content/uploads/2017/02/significado-da-bandeira-de-malta.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp; Malta</a>
+                            <a class="dropdown-item" href="destino/?teste"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Austrália</a>
+                            <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Canadá</a>
+                            <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2000px-Flag_of_the_United_States.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Estados Unidos</a>
+                            <a class="dropdown-item" href="#"><img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_700,h_420/https://www.canallondres.tv/wp-content/uploads/2017/10/Bandeira-da-Gra-Bretanha.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Inglaterra</a>
+                            <a class="dropdown-item" href="#"><img src="https://i1.wp.com/www.eurodicas.com.br/wp-content/uploads/2018/05/cores-da-bandeira-da-irlanda.jpg?zoom=2.625&w=1000&ssl=1" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Irlanda</a>
+                            <a class="dropdown-item" href="#"><img src="https://www.estudopratico.com.br/wp-content/uploads/2017/02/significado-da-bandeira-de-malta.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Malta</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Promocionais</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Intercâmbio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><img src="imgs/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas</a>
+                            <a class="dropdown-item" href="#"><img src="imgs/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Outros serviços
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><img src="imgs/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio</a>
+                            <a class="dropdown-item" href="#"><img src="imgs/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto</a>
+                            <a class="dropdown-item" href="#"><img src="imgs/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Ajuda</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link disabled" href="#">Imigrar</a>
                     </li>
                 </ul>
                 <!--                <form class="form-inline my-2 my-lg-0">
