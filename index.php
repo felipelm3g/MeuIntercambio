@@ -43,12 +43,12 @@
                                 Destinos
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="destino/?teste"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Austrália</a>
-                                <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Canadá</a>
-                                <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2000px-Flag_of_the_United_States.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Estados Unidos</a>
-                                <a class="dropdown-item" href="#"><img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_700,h_420/https://www.canallondres.tv/wp-content/uploads/2017/10/Bandeira-da-Gra-Bretanha.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Inglaterra</a>
-                                <a class="dropdown-item" href="#"><img src="https://i1.wp.com/www.eurodicas.com.br/wp-content/uploads/2018/05/cores-da-bandeira-da-irlanda.jpg?zoom=2.625&w=1000&ssl=1" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Irlanda</a>
-                                <a class="dropdown-item" href="#"><img src="https://www.estudopratico.com.br/wp-content/uploads/2017/02/significado-da-bandeira-de-malta.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Malta</a>
+                                <a class="dropdown-item" href="destino/?teste"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Austrália &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Canadá &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2000px-Flag_of_the_United_States.svg.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Estados Unidos &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_700,h_420/https://www.canallondres.tv/wp-content/uploads/2017/10/Bandeira-da-Gra-Bretanha.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Inglaterra &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="https://i1.wp.com/www.eurodicas.com.br/wp-content/uploads/2018/05/cores-da-bandeira-da-irlanda.jpg?zoom=2.625&w=1000&ssl=1" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Irlanda &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="https://www.estudopratico.com.br/wp-content/uploads/2017/02/significado-da-bandeira-de-malta.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Malta &nbsp;&nbsp;</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Promocionais</a>
                             </div>
@@ -58,8 +58,8 @@
                                 Intercâmbio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="imgs/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho</a>
+                                <a class="dropdown-item" href="#"><img src="imgs/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="imgs/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho &nbsp;&nbsp;</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown active">
@@ -67,9 +67,9 @@
                                 Outros serviços
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="imgs/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas</a>
+                                <a class="dropdown-item" href="#"><img src="imgs/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="imgs/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="imgs/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas &nbsp;&nbsp;</a>
                             </div>
                         </li>
                         <li class="nav-item active">
@@ -161,14 +161,14 @@
                     <div class="col-lg-4">
                         <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                         <br><br>
-                        <h2>Título</h2>
+                        <h2>Qualidade</h2>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                         <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                         <br><br>
-                        <h2>Título</h2>
+                        <h2>Melhor preço</h2>
                         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                         <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
                     </div><!-- /.col-lg-4 -->
@@ -192,7 +192,8 @@
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                     </div>
                     <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16914f84c02%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16914f84c02%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.125%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                        <!--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="imgs/escola.jpg" data-holder-rendered="true">-->
+                        <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="imgs/escola.jpg" data-holder-rendered="true">
                     </div>
                 </div>
 
@@ -204,7 +205,8 @@
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                     </div>
                     <div class="col-md-5 order-md-1">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16914f84c0b%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16914f84c0b%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.125%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 500px; height: 500px;">
+                        <!--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="" data-holder-rendered="true" style="width: 500px; height: 500px;">-->
+                        <img class="featurette-image img-fluid mx-auto" alt="500x500" src="imgs/hostel-1.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
                     </div>
                 </div>
 
