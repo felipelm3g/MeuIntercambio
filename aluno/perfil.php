@@ -4,8 +4,9 @@ $pf = [
     "cpf" => "01625439210",
     "nome" => "Felipe Lopes",
     "email" => "felipe.lm@hotmail.com.br",
-    "pais" => "Malta",
+    "pais" => "Irlanda",
     "embarq" => "03/04/2019",
+    "img" => "",
 ];
 ?>
 <html lang="pt-br">
@@ -49,13 +50,39 @@ $pf = [
 
         <main role="main" style="float: left; width: 100%;padding: 50px; margin-top: 56px;">
             <div class="divstyle" style=" width: 260px;">
-                <div class="divpais">
-                    <div class="divimgprofile">
+                <div class="divpais" style="<?php
+                switch ($pf["pais"]) {
+                    case "Australia":
+                        echo "background-image: url('../imgs/australia.jpg')";
+                        break;
+                    case "Canada":
+                        echo "background-image: url('../imgs/canada.jpg')";
+                        break;
+                    case "Estados Unidos":
+                        echo "background-image: url('../imgs/estadosunidos.jpg')";
+                        break;
+                    case "Inglaterra":
+                        echo "background-image: url('../imgs/inglaterra.jpg')";
+                        break;
+                    case "Irlanda":
+                        echo "background-image: url('../imgs/irlanda.jpg')";
+                        break;
+                    case "Malta":
+                        echo "background-image: url('../imgs/malta.jpg')";
+                        break;
+                }
+                ?>">
+                    <div class="divimgprofile" style="<?php if ($pf["img"] == "") {
+                        echo "background-image: url('../imgs/user.jpg');";
+                     } else {
+                        echo "background-image: url('" . $pf["img"] . "');";
+                     }
+                ?>">
                     </div>
                 </div>
                 <div class="detalis">
-                    <h5>Felipe Lopes</h5>
-                    <p>felipe.lm@hotmail.com.br</p>
+                    <h5><?php echo $pf["nome"]; ?></h5>
+                    <p><?php echo $pf["email"]; ?></p>
                 </div>
                 <ul class="divmenu">
                     <li><img src="../imgs/world.png" /> &nbsp; Detalhes</li>
