@@ -79,7 +79,7 @@
                             <a class="nav-link" href="#">Ajuda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Imigrar</a>
+                            <a class="nav-link disabled" href="a#">Imigrar</a>
                         </li>
                     </ul>
                     <!--                <form class="form-inline my-2 my-lg-0">
@@ -94,7 +94,7 @@
                                                 <input type="radio" name="options" id="option2" autocomplete="off"> Login
                                             </label>
                                         </div>-->
-                    <button type="button" class="btn btn-outline-secondary my-2 my-sm-0"><img style="float: left; margin: 0px; padding: 0px; margin-top: 4px;" src="imgs/lock1.png"/>&nbsp; Acesso Aluno</button>
+                    <a href="aluno/"><button type="button" class="btn btn-outline-secondary my-2 my-sm-0"><img style="float: left; margin: 0px; padding: 0px; margin-top: 4px;" src="imgs/lock1.png"/>&nbsp; Acesso Aluno</button></a>
                 </div>
             </nav>
         </header>
