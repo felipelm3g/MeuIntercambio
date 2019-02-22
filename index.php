@@ -94,7 +94,7 @@
                                                 <input type="radio" name="options" id="option2" autocomplete="off"> Login
                                             </label>
                                         </div>-->
-                    <a href="aluno/"><button type="button" class="btn btn-outline-secondary my-2 my-sm-0"><img style="float: left; margin: 0px; padding: 0px; margin-top: 4px;" src="imgs/lock1.png"/>&nbsp; Acesso Aluno</button></a>
+                    <a href="aluno/" target="_blank"><button type="button" class="btn btn-outline-secondary my-2 my-sm-0"><img style="float: left; margin: 0px; padding: 0px; margin-top: 4px;" src="imgs/lock1.png"/>&nbsp; Acesso Aluno</button></a>
                 </div>
             </nav>
         </header>
