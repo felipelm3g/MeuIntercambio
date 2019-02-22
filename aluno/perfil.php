@@ -93,6 +93,38 @@ $pf = [
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
+                <h4 style="width: 100%;margin: 0px;margin-bottom: 20px;">Detalhes</h4>
+                <div class="div-infos">
+                    <h6>Informações</h6>
+                    <p>Pais - Irlanda</p>
+                    <p>Embarque - 05/04/2019</p>
+                    <p>Início do curso - 08/04/2019</p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6>Tipo Intercambio</h6>
+                    <p>Descrição</p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6>Passagem</h6>
+                    <p>Descrição</p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6>Transalado</h6>
+                    <p>Descrição</p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6>Acomodação</h6>
+                    <p>Descrição</p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6>Seguro</h6>
+                    <p>Descrição</p>
+                </div>
             </div>
         </main>
 
