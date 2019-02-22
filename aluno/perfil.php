@@ -4,7 +4,7 @@ $pf = [
     "cpf" => "01625439210",
     "nome" => "Felipe Lopes",
     "email" => "felipe.lm@hotmail.com.br",
-    "pais" => "Irlanda",
+    "pais" => "Estados Unidos",
     "embarq" => "03/04/2019",
     "img" => "",
 ];
@@ -48,7 +48,7 @@ $pf = [
             </nav>
         </header>
 
-        <main role="main" style="float: left; width: 100%;padding: 50px; margin-top: 56px;">
+        <main role="main" style="float: left; width: 100%;padding: 50px 100px 50px 100px; margin-top: 56px;">
             <div class="divstyle" style=" width: 260px;">
                 <div class="divpais" style="<?php
                 switch ($pf["pais"]) {
@@ -72,12 +72,13 @@ $pf = [
                         break;
                 }
                 ?>">
-                    <div class="divimgprofile" style="<?php if ($pf["img"] == "") {
+                    <div class="divimgprofile" style="<?php
+                    if ($pf["img"] == "") {
                         echo "background-image: url('../imgs/user.jpg');";
-                     } else {
+                    } else {
                         echo "background-image: url('" . $pf["img"] . "');";
-                     }
-                ?>">
+                    }
+                    ?>">
                     </div>
                 </div>
                 <div class="detalis">
@@ -92,43 +93,6 @@ $pf = [
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress2">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                        </div>
-                    </div>
-                </form>
             </div>
         </main>
 
