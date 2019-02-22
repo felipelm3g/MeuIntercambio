@@ -1,7 +1,9 @@
 document.body.innerHTML += "<div onclick='contatowpp();' id='img-contato' style='display: none;'><img width='100%' src='imgs/whatsapp.png' /></div>";
 
 function contatowpp() {
-    console.log("TEste");
+    var msg = "Olá, tudo bem?";
+    msg = msg.replace(" ", "%20");
+    window.open("https://api.whatsapp.com/send?phone=5581995285816&text=" + msg,"_blank");
 }
 
 try {
@@ -19,12 +21,10 @@ try {
     document.getElementById("img-contato").style.boxShadow = "1px 1px 5px 0px rgba(0,0,0,0.75)";
 
     document.getElementById("img-contato").onmouseover = function () {
-        document.getElementById("img-contato").style.width = "80px";
-        document.getElementById("img-contato").style.height = "80px";
+        document.getElementById("img-contato").style.boxShadow = "1px 1px 6px 0px rgba(0,0,0,1)";
     };
     document.getElementById("img-contato").onmouseout = function () {
-        document.getElementById("img-contato").style.width = "60px";
-        document.getElementById("img-contato").style.height = "60px";
+        document.getElementById("img-contato").style.boxShadow = "1px 1px 5px 0px rgba(0,0,0,0.75)";
     };
 
     document.getElementById("img-contato").style.display = "block";
