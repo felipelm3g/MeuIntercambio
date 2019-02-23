@@ -20,7 +20,7 @@ $pf = [
         <title>Meu Intercâmbio - Detalhes</title>
 
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-        
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="../imgs/favicon.ico" />
 
@@ -104,9 +104,7 @@ $pf = [
                 </div>
                 <hr>
                 <div class="div-infos">
-                    <h6><img src="../imgs/flag.png" /> Tipo Intercambio</h6>
-                    <p>Curso de Idiomas</p>
-                    <br>
+                    <h6><img src="../imgs/flag.png" /> Escola</h6>
                     <p>Ace English</p>
                     <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★★★</font></p>
                 </div>
@@ -124,11 +122,11 @@ $pf = [
                 <div class="div-infos">
                     <h6><img src="../imgs/acomda.png" /> Acomodação</h6>
                     <p>Exchange Hostel</p>
-                    <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★</font></p>
+                    <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★</font><font style="color: #000; opacity: 0.3;">★★</font></p>
                 </div>
                 <hr>
                 <div class="div-infos">
-                    <h6>Seguro</h6>
+                    <h6><img src="../imgs/shield.png" /> Seguro</h6>
                     <p><i>Indisponível</i></p>
                 </div>
             </div>

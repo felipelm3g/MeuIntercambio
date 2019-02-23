@@ -29,6 +29,8 @@ $pf = [
 
         <!-- Estilos customizados para esse template -->
         <link href="../css/financeiro.css" rel="stylesheet">
+
+        <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
     </head>
     <body cz-shortcut-listen="true">
 
@@ -95,9 +97,13 @@ $pf = [
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
-                <h5>Curso de Idiomas</h5>
-                <p style="margin: 0px;">Malta - 4 semanas</p>
-                <p style="font-size: 13px; margin-bottom: 20px;">Inicio - 03/04/2019</p>
+                <div class="card" style="margin-bottom: 30px;">
+                    <div class="card-body">
+                        <h5>Curso de Idiomas</h5>
+                        <p style="margin: 0px;">Malta - 4 semanas</p>
+                        <p style="font-size: 13px;margin-bottom: 0px;">Inicio - 03/04/2019</p>
+                    </div>
+                </div>
                 <table class="table">
                     <thead>
                         <tr>
@@ -113,7 +119,7 @@ $pf = [
                     <tbody>
                         <tr>
                             <th scope="row"><font style="opacity: 0.4;">E</font></th>
-                            <td>Intercambio</td>
+                            <td>Intercâmbio - Malta</td>
                             <td>-</td>
                             <td>R$ 1.000,00</td>
                             <td>R$ 0,00</td>
@@ -122,7 +128,7 @@ $pf = [
                         </tr>
                         <tr>
                             <th scope="row">1º</th>
-                            <td>Intercambio Malta - 4s</td>
+                            <td>Intercâmbio - Malta</td>
                             <td>15/02/2019</td>
                             <td>R$ 500,00</td>
                             <td>R$ 50,00</td>
@@ -131,7 +137,7 @@ $pf = [
                         </tr>
                         <tr>
                             <th scope="row">2º</th>
-                            <td>Intercambio Malta - 4s</td>
+                            <td>Intercâmbio - Malta</td>
                             <td>15/03/2019</td>
                             <td>R$ 500,00</td>
                             <td>R$ 50,00</td>
@@ -140,12 +146,19 @@ $pf = [
                         </tr>
                         <tr>
                             <th scope="row">3º</th>
-                            <td>Intercambio Malta - 4s</td>
+                            <td>Intercâmbio - Malta</td>
                             <td>15/04/2019</td>
                             <td>R$ 500,00</td>
                             <td>R$ 50,00</td>
                             <td><b>R$ 450,00</b></td>
-                            <td><button type="button" class="btn btn-success btn-sm">Pagar</button></td>
+                            <td>
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                                    <input type="hidden" name="code" value="52CDCE899E9E229004A73F8430F3B746" />
+                                    <input type="hidden" name="iot" value="button" />
+                                    <button type="submit" class="btn btn-success btn-sm">Pagar</button>
+                                </form>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
