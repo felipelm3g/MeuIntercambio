@@ -17,7 +17,7 @@
 
         <script type="text/javascript">
             function login() {
-                window.location.href = "perfil.php";
+                window.location.href = "detalhes.php";
             }
         </script>
     </head>
