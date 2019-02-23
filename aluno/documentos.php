@@ -50,7 +50,7 @@ $pf = [
             </nav>
         </header>
 
-        <main role="main" style="float: left; width: 100%;padding: 50px 100px 50px 100px; margin-top: 56px;">
+        <main role="main" style="float: left; width: 100%;padding: 25px 100px 25px 100px; margin-top: 56px;">
             <div class="divstyle" style=" width: 260px;">
                 <div class="divpais" style="<?php
                 switch ($pf["pais"]) {
