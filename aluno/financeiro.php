@@ -95,7 +95,60 @@ $pf = [
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
-
+                <h5>Curso de Idiomas</h5>
+                <p style="margin: 0px;">Malta - 4 semanas</p>
+                <p style="font-size: 13px; margin-bottom: 20px;">Inicio - 03/04/2019</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Detalhe</th>
+                            <th scope="col">Vencimento</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">Desconto</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><font style="opacity: 0.4;">E</font></th>
+                            <td>Intercambio</td>
+                            <td>-</td>
+                            <td>R$ 1.000,00</td>
+                            <td>R$ 0,00</td>
+                            <td><b>R$ 1.000,00</b></td>
+                            <td><img src="../imgs/checked.png" alt="Pago" /></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1º</th>
+                            <td>Intercambio Malta - 4s</td>
+                            <td>15/02/2019</td>
+                            <td>R$ 500,00</td>
+                            <td>R$ 50,00</td>
+                            <td><b>R$ 450,00</b></td>
+                            <td><img src="../imgs/checked.png" alt="Pago" /></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2º</th>
+                            <td>Intercambio Malta - 4s</td>
+                            <td>15/03/2019</td>
+                            <td>R$ 500,00</td>
+                            <td>R$ 50,00</td>
+                            <td><b>R$ 450,00</b></td>
+                            <td><img src="../imgs/passage-of-time.png" alt="Em analise" /></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3º</th>
+                            <td>Intercambio Malta - 4s</td>
+                            <td>15/04/2019</td>
+                            <td>R$ 500,00</td>
+                            <td>R$ 50,00</td>
+                            <td><b>R$ 450,00</b></td>
+                            <td><button type="button" class="btn btn-success btn-sm">Pagar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
