@@ -19,6 +19,8 @@ $pf = [
 
         <title>Meu Intercâmbio</title>
 
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+        
         <!-- Favicon -->
         <link rel="shortcut icon" href="../imgs/favicon.ico" />
 
@@ -95,35 +97,39 @@ $pf = [
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
                 <h4 style="width: 100%;margin: 0px;margin-bottom: 20px;">Detalhes</h4>
                 <div class="div-infos">
-                    <h6>Informações</h6>
-                    <p>Pais - Irlanda</p>
+                    <h6><img src="../imgs/info16.png" /> Informações</h6>
+                    <p>Pais - Irlanda &nbsp; <img width="14" src="../imgs/paises/circulo/ireland.png" /></p>
                     <p>Embarque - 05/04/2019</p>
                     <p>Início do curso - 08/04/2019</p>
                 </div>
                 <hr>
                 <div class="div-infos">
-                    <h6>Tipo Intercambio</h6>
-                    <p>Descrição</p>
+                    <h6><img src="../imgs/flag.png" /> Tipo Intercambio</h6>
+                    <p>Curso de Idiomas</p>
+                    <br>
+                    <p>Ace English</p>
+                    <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★★★</font></p>
                 </div>
                 <hr>
                 <div class="div-infos">
-                    <h6>Passagem</h6>
-                    <p>Descrição</p>
+                    <h6><img src="../imgs/passage.png" /> Passagem</h6>
+                    <p><i>Indisponível</i></p>
                 </div>
                 <hr>
                 <div class="div-infos">
-                    <h6>Transalado</h6>
-                    <p>Descrição</p>
+                    <h6><img src="../imgs/tras.png" /> Transalado</h6>
+                    <p>Aeropoto até acomodação</p>
                 </div>
                 <hr>
                 <div class="div-infos">
-                    <h6>Acomodação</h6>
-                    <p>Descrição</p>
+                    <h6><img src="../imgs/acomda.png" /> Acomodação</h6>
+                    <p>Exchange Hostel</p>
+                    <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★</font></p>
                 </div>
                 <hr>
                 <div class="div-infos">
                     <h6>Seguro</h6>
-                    <p>Descrição</p>
+                    <p><i>Indisponível</i></p>
                 </div>
             </div>
         </main>
