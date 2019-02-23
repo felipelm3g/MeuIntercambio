@@ -66,6 +66,10 @@
     text-align: left;
     /*padding: 5px 22px 22px 22px;*/
 }
+.divmenu a {
+    text-decoration: none;
+    color: #000;
+}
 .divmenu li {
     padding: 5px 22px 5px 22px;
 }
