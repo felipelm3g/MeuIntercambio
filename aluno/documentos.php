@@ -95,7 +95,22 @@ $pf = [
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
-
+                <h4 style="width: 100%;margin: 0px;margin-bottom: 20px;">Documentos</h4>
+                <hr>
+                <table style="width: 100%;">
+                    <tr>
+                        <td>Passagem</td>
+                        <td style="text-align: center;">Dowload</td>
+                    </tr>
+                    <tr>
+                        <td>opçao 1</td>
+                        <td style="text-align: center;">Dowload</td>
+                    </tr>
+                    <tr>
+                        <td>Celula1</td>
+                        <td style="text-align: center;">Celula 2</td>
+                    </tr>
+                </table>
             </div>
         </main>
 

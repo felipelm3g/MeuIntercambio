@@ -95,10 +95,50 @@ $pf = [
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
-
+                <h4 style="width: 100%;margin: 0px;margin-bottom: 20px;">Atendimento</h4>
+                <hr>
+                <button type="button" class="btn btn-success">Novo</button>
+                <table class="table" style="margin: 0px; margin-top: 25px;">
+                    <tbody>
+                        <tr>
+                            <th scope="row">A0001</th>
+                            <td>Não consigo anexar os documentos</td>
+                            <td>13/02/2019</td>
+                            <td>13/02/2019</td>
+                            <td><img src="../imgs/checked.png" /></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">A0002</th>
+                            <td>Erro ao tentar pagar a parcela.</td>
+                            <td>13/02/2019</td>
+                            <td>13/02/2019</td>
+                            <td><img data-toggle="modal" data-target="#modalExemplo" style="opacity: 0.2; cursor: pointer;" src="../imgs/checkedblack.png" /></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
+        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Deseja concluir?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Ao clicar <b>Sim</b> estará confirmando a conclusão do atendimento. Essa ação não poderá ser desfeita.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                        <button type="button" class="btn btn-success">Sim</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <script type="text/javascript" src="../js/contato2.js"></script>
 
         <!-- Principal JavaScript do Bootstrap
