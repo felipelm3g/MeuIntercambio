@@ -7,7 +7,7 @@
         <meta name="author" content="">
         <link rel="icon" href="../imgs/favicon.ico">
 
-        <title>Meu Intercâmbio - Acesso Aluno</title>
+        <title>Meu Intercâmbio - Acesso Interno</title>
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
