@@ -10,7 +10,7 @@
         <title>Meu Intercâmbio</title>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="imgs/favicon.ico" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
 
         <!-- Principal CSS do Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="#">
-                    <img src="imgs/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="img/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     Meu Intercâmbio
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,12 +43,12 @@
                                 Destinos
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="destino/?teste"><img src="imgs/paises/bandeira/australia.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Austrália &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/paises/bandeira/canada.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Canadá &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/paises/bandeira/estadosunidos.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Estados Unidos &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/paises/bandeira/inglaterra.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Inglaterra &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/paises/bandeira/irlanda.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Irlanda &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/paises/bandeira/malta.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Malta &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="destino/?teste"><img src="img/paises/bandeira/australia.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Austrália &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/paises/bandeira/canada.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Canadá &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/paises/bandeira/estadosunidos.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Estados Unidos &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/paises/bandeira/inglaterra.png" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Inglaterra &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/paises/bandeira/irlanda.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Irlanda &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/paises/bandeira/malta.jpg" width="28.5" height="20" style="border-radius: 3px;box-shadow: 1px 1px 2px 0px rgba(125,125,125,1);" />&nbsp;&nbsp; Malta &nbsp;&nbsp;</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Promocionais</a>
                             </div>
@@ -58,8 +58,8 @@
                                 Intercâmbio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="imgs/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho &nbsp;&nbsp;</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown active">
@@ -67,9 +67,9 @@
                                 Outros serviços
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="imgs/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto &nbsp;&nbsp;</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto &nbsp;&nbsp;</a>
+                                <a class="dropdown-item" href="#"><img src="img/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas &nbsp;&nbsp;</a>
                             </div>
                         </li>
                         <li class="nav-item active">
@@ -94,7 +94,7 @@
                                                 <input type="radio" name="options" id="option2" autocomplete="off"> Login
                                             </label>
                                         </div>-->
-                    <a href="aluno/" target="_blank"><button type="button" class="btn btn-outline-secondary my-2 my-sm-0"><img style="float: left; margin: 0px; padding: 0px; margin-top: 4px;" src="imgs/lock1.png"/>&nbsp; Acesso Aluno</button></a>
+                    <a href="aluno/index.php" target="_blank"><button type="button" class="btn btn-outline-secondary my-2 my-sm-0"><img style="float: left; margin: 0px; padding: 0px; margin-top: 4px;" src="img/lock1.png"/>&nbsp; Acesso Aluno</button></a>
                 </div>
             </nav>
         </header>
@@ -109,7 +109,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="first-slide" src="imgs/background2.jpg" alt="First slide">
+                        <img class="first-slide" src="img/background2.jpg" alt="First slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1 style="text-shadow: 1px 1px 2px rgba(0,0,0,0.6);">Manchete</h1>
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="second-slide" src="imgs/background3.jpg" alt="Second slide">
+                        <img class="second-slide" src="img/background3.jpg" alt="Second slide">
                         <div class="container">
                             <div class="carousel-caption">
                                 <h1 style="text-shadow: 1px 1px 2px rgba(0,0,0,0.6);">Outra manchete</h1>
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="third-slide" src="imgs/background1.webp" alt="Third slide">
+                        <img class="third-slide" src="img/background1.webp" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption text-right">
                                 <h1 style="text-shadow: 1px 1px 2px rgba(0,0,0,0.6);">Outra manchete, pra garantir</h1>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="col-md-5">
                         <!--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="imgs/escola.jpg" data-holder-rendered="true">-->
-                        <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="imgs/escola.jpg" data-holder-rendered="true">
+                        <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="img/escola.jpg" data-holder-rendered="true">
                     </div>
                 </div>
 
@@ -206,7 +206,7 @@
                     </div>
                     <div class="col-md-5 order-md-1">
                         <!--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="" data-holder-rendered="true" style="width: 500px; height: 500px;">-->
-                        <img class="featurette-image img-fluid mx-auto" alt="500x500" src="imgs/hostel-1.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+                        <img class="featurette-image img-fluid mx-auto" alt="500x500" src="img/hostel-1.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
                     </div>
                 </div>
 

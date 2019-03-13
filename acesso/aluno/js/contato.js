@@ -1,4 +1,4 @@
-document.body.innerHTML += "<div onclick='contatowpp();' id='img-contato' style='display: none;'><img width='100%' src='../imgs/whatsapp.png' /></div>";
+document.body.innerHTML += "<div onclick='contatowpp();' id='img-contato' style='display: none;'><img width='100%' src='../img/whatsapp.png' /></div>";
 
 function contatowpp() {
     var msg = "Olá, tudo bem?";

@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../imgs/favicon.ico">
+        <link rel="icon" href="../img/favicon.ico">
 
         <title>Meu Intercâmbio - Dashboard</title>
 
@@ -12,15 +12,15 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Estilos customizados para esse template -->
-        <link href="../css/dashboard.css" rel="stylesheet">
+        <link href="css/dashboard.css" rel="stylesheet">
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-        <script src="../js/dashboard.js"></script>
+        <script src="js/dashboard.js"></script>
 
     <body cz-shortcut-listen="true">
         <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
             <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
-                <img src="../imgs/icone.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                <img src="../img/icone.png" width="20" height="20" class="d-inline-block align-top" alt="">
                 Meu Intercâmbio
             </a>
             <input class="form-control form-control-dark w-100" type="text" placeholder="Pesquisar" aria-label="Search">

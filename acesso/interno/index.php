@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../imgs/favicon.ico">
+        <link rel="icon" href="../img/favicon.ico">
 
         <title>Meu Intercâmbio - Acesso Interno</title>
 
@@ -13,7 +13,7 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Estilos customizados para esse template -->
-        <link href="../css/signin.css" rel="stylesheet">
+        <link href="css/signin.css" rel="stylesheet">
 
         <script type="text/javascript">
             function login() {
@@ -24,7 +24,7 @@
 
     <body class="text-center" cz-shortcut-listen="true">
         <form class="form-signin">
-            <img class="mb-4" src="../imgs/icone.png" alt="" width="72" height="72">
+            <img class="mb-4" src="../img/icone.png" alt="" width="72" height="72">
             <h1 class="h3 mb-3 font-weight-normal">Acesso Interno</h1>
             <label for="inputEmail" class="sr-only">Endereço de email</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required="" autofocus="">

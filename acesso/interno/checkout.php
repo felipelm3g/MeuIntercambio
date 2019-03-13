@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../imgs/favicon.ico">
+        <link rel="icon" href="../img/favicon.ico">
 
         <title>Meu Intercâmbio - Checkout</title>
 
@@ -13,14 +13,14 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Estilos customizados para esse template -->
-        <link href="../css/form-validation.css" rel="stylesheet">
+        <link href="css/form-validation.css" rel="stylesheet">
     </head>
 
     <body class="bg-light" cz-shortcut-listen="true">
 
         <div class="container">
             <div class="py-5 text-center">
-                <img class="d-block mx-auto mb-4" src="../imgs/icone.png" alt="" width="72" height="72">
+                <img class="d-block mx-auto mb-4" src="../img/icone.png" alt="" width="72" height="72">
                 <h2>Formulário de Venda</h2>
                 <p class="lead">Abaixo temos um exemplo de formulário construído com controles de formulário Bootstrap. Cada campo obrigatório possui um estado de validação que é ativado quando tenta-se enviar o formulário sem completá-lo.</p>
             </div>
@@ -239,9 +239,9 @@
         <!-- Foi colocado no final para a página carregar mais rápido -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-        <script src="../../assets/js/vendor/popper.min.js"></script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-        <script src="../../assets/js/vendor/holder.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/holder.min.js"></script>
         <script>
             // Exemplo de JavaScript para desativar o envio do formulário, se tiver algum campo inválido.
             (function () {

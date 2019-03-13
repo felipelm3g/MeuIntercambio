@@ -17,25 +17,25 @@ $pf = [
         <meta name="author" content="">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <title>Meu Intercâmbio - Atendimento</title>
+        <title>Meu Intercâmbio - Detalhes</title>
 
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="../imgs/favicon.ico" />
+        <link rel="shortcut icon" href="../img/favicon.ico" />
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Estilos customizados para esse template -->
-        <link href="../css/atendimento.css" rel="stylesheet">
+        <link href="css/detalhes.css" rel="stylesheet">
     </head>
     <body cz-shortcut-listen="true">
 
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="#">
-                    <img src="../imgs/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="../img/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     Meu Intercâmbio
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,28 +55,28 @@ $pf = [
                 <div class="divpais" style="<?php
                 switch ($pf["pais"]) {
                     case "Australia":
-                        echo "background-image: url('../imgs/australia.jpg')";
+                        echo "background-image: url('../img/australia.jpg')";
                         break;
                     case "Canada":
-                        echo "background-image: url('../imgs/canada.jpg')";
+                        echo "background-image: url('../img/canada.jpg')";
                         break;
                     case "Estados Unidos":
-                        echo "background-image: url('../imgs/estadosunidos.jpg')";
+                        echo "background-image: url('../img/estadosunidos.jpg')";
                         break;
                     case "Inglaterra":
-                        echo "background-image: url('../imgs/inglaterra.jpg')";
+                        echo "background-image: url('../img/inglaterra.jpg')";
                         break;
                     case "Irlanda":
-                        echo "background-image: url('../imgs/irlanda.jpg')";
+                        echo "background-image: url('../img/irlanda.jpg')";
                         break;
                     case "Malta":
-                        echo "background-image: url('../imgs/malta.jpg')";
+                        echo "background-image: url('../img/malta.jpg')";
                         break;
                 }
                 ?>">
                     <div class="divimgprofile" style="<?php
                     if ($pf["img"] == "") {
-                        echo "background-image: url('../imgs/user.jpg');";
+                        echo "background-image: url('../img/user.jpg');";
                     } else {
                         echo "background-image: url('" . $pf["img"] . "');";
                     }
@@ -88,58 +88,51 @@ $pf = [
                     <p><?php echo $pf["email"]; ?></p>
                 </div>
                 <ul class="divmenu">
-                    <a href="detalhes.php"><li><img src="../imgs/world.png" /> &nbsp; Detalhes</li></a>
-                    <a href="financeiro.php"><li><img src="../imgs/coin.png" /> &nbsp; Financeiro</li></a>
-                    <a href="documentos.php"><li><img src="../imgs/file.png" /> &nbsp; Documentos</li></a>
-                    <a href="atendimento.php"><li><img src="../imgs/conversation.png" /> &nbsp; Atendimento</li></a>
+                    <a href="detalhes.php"><li><img src="../img/world.png" /> &nbsp; Detalhes</li></a>
+                    <a href="financeiro.php"><li><img src="../img/coin.png" /> &nbsp; Financeiro</li></a>
+                    <a href="documentos.php"><li><img src="../img/file.png" /> &nbsp; Documentos</li></a>
+                    <a href="atendimento.php"><li><img src="../img/conversation.png" /> &nbsp; Atendimento</li></a>
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
-                <h4 style="width: 100%;margin: 0px;margin-bottom: 20px;">Atendimento</h4>
+                <h4 style="width: 100%;margin: 0px;margin-bottom: 20px;">Detalhes</h4>
+                <div class="div-infos">
+                    <h6><img src="../img/info16.png" /> Informações</h6>
+                    <p>Pais - Irlanda &nbsp; <img width="14" src="../img/paises/circulo/ireland.png" /></p>
+                    <p>Embarque - 05/04/2019</p>
+                    <p>Início do curso - 08/04/2019</p>
+                </div>
                 <hr>
-                <button type="button" class="btn btn-success">Novo</button>
-                <table class="table" style="margin: 0px; margin-top: 25px;">
-                    <tbody>
-                        <tr>
-                            <th scope="row">A0001</th>
-                            <td>Não consigo anexar os documentos</td>
-                            <td>13/02/2019</td>
-                            <td>13/02/2019</td>
-                            <td><img src="../imgs/checked.png" /></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">A0002</th>
-                            <td>Erro ao tentar pagar a parcela.</td>
-                            <td>13/02/2019</td>
-                            <td>13/02/2019</td>
-                            <td><img data-toggle="modal" data-target="#modalExemplo" style="opacity: 0.2; cursor: pointer;" src="../imgs/checkedblack.png" /></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="div-infos">
+                    <h6><img src="../img/flag.png" /> Escola</h6>
+                    <p>Ace English</p>
+                    <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★★★</font></p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6><img src="../img/passage.png" /> Passagem</h6>
+                    <p><i>Indisponível</i></p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6><img src="../img/tras.png" /> Transalado</h6>
+                    <p>Aeropoto até acomodação</p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6><img src="../img/acomda.png" /> Acomodação</h6>
+                    <p>Exchange Hostel</p>
+                    <p><font style="color: #FED700; text-shadow: 0.1px 0.1px 0.1px #000;">★★★</font><font style="color: #000; opacity: 0.3;">★★</font></p>
+                </div>
+                <hr>
+                <div class="div-infos">
+                    <h6><img src="../img/shield.png" /> Seguro</h6>
+                    <p><i>Indisponível</i></p>
+                </div>
             </div>
         </main>
 
-        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Deseja concluir?</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Ao clicar <b>Sim</b> estará confirmando a conclusão do atendimento. Essa ação não poderá ser desfeita.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
-                        <button type="button" class="btn btn-success">Sim</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <script type="text/javascript" src="../js/contato2.js"></script>
+        <script type="text/javascript" src="js/contato.js"></script>
 
         <!-- Principal JavaScript do Bootstrap
         ================================================== -->

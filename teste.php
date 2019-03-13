@@ -9,7 +9,7 @@
         <title>Meu Intercâmbio</title>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="imgs/favicon.ico" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
 
         <!-- Principal CSS do Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="#">
-                    <img src="imgs/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="img/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     Meu Intercâmbio
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,8 +57,8 @@
                                 Intercâmbio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="imgs/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho</a>
+                                <a class="dropdown-item" href="#"><img src="img/book.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Idiomas</a>
+                                <a class="dropdown-item" href="#"><img src="img/work.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Curso + Trabalho</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown active">
@@ -66,9 +66,9 @@
                                 Outros serviços
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#"><img src="imgs/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto</a>
-                                <a class="dropdown-item" href="#"><img src="imgs/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas</a>
+                                <a class="dropdown-item" href="#"><img src="img/dollar-symbol.png" height="16" style="float: left; margin-top: 5px; opacity: 0.4;" />&nbsp;&nbsp; Câmbio</a>
+                                <a class="dropdown-item" href="#"><img src="img/ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Visto</a>
+                                <a class="dropdown-item" href="#"><img src="img/plane-ticket.png" height="16" style="float: left; margin-top: 5px; opacity: 0.5;" />&nbsp;&nbsp; Passagens Aéreas</a>
                             </div>
                         </li>
                         <li class="nav-item active">

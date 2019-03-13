@@ -22,20 +22,20 @@ $pf = [
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="../imgs/favicon.ico" />
+        <link rel="shortcut icon" href="../img/favicon.ico" />
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Estilos customizados para esse template -->
-        <link href="../css/documentos.css" rel="stylesheet">
+        <link href="css/documentos.css" rel="stylesheet">
     </head>
     <body cz-shortcut-listen="true">
 
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="#">
-                    <img src="../imgs/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="../img/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     Meu Intercâmbio
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,28 +55,28 @@ $pf = [
                 <div class="divpais" style="<?php
                 switch ($pf["pais"]) {
                     case "Australia":
-                        echo "background-image: url('../imgs/australia.jpg')";
+                        echo "background-image: url('../img/australia.jpg')";
                         break;
                     case "Canada":
-                        echo "background-image: url('../imgs/canada.jpg')";
+                        echo "background-image: url('../img/canada.jpg')";
                         break;
                     case "Estados Unidos":
-                        echo "background-image: url('../imgs/estadosunidos.jpg')";
+                        echo "background-image: url('../img/estadosunidos.jpg')";
                         break;
                     case "Inglaterra":
-                        echo "background-image: url('../imgs/inglaterra.jpg')";
+                        echo "background-image: url('../img/inglaterra.jpg')";
                         break;
                     case "Irlanda":
-                        echo "background-image: url('../imgs/irlanda.jpg')";
+                        echo "background-image: url('../img/irlanda.jpg')";
                         break;
                     case "Malta":
-                        echo "background-image: url('../imgs/malta.jpg')";
+                        echo "background-image: url('../img/malta.jpg')";
                         break;
                 }
                 ?>">
                     <div class="divimgprofile" style="<?php
                     if ($pf["img"] == "") {
-                        echo "background-image: url('../imgs/user.jpg');";
+                        echo "background-image: url('../img/user.jpg');";
                     } else {
                         echo "background-image: url('" . $pf["img"] . "');";
                     }
@@ -88,10 +88,10 @@ $pf = [
                     <p><?php echo $pf["email"]; ?></p>
                 </div>
                 <ul class="divmenu">
-                    <a href="detalhes.php"><li><img src="../imgs/world.png" /> &nbsp; Detalhes</li></a>
-                    <a href="financeiro.php"><li><img src="../imgs/coin.png" /> &nbsp; Financeiro</li></a>
-                    <a href="documentos.php"><li><img src="../imgs/file.png" /> &nbsp; Documentos</li></a>
-                    <a href="atendimento.php"><li><img src="../imgs/conversation.png" /> &nbsp; Atendimento</li></a>
+                    <a href="detalhes.php"><li><img src="../img/world.png" /> &nbsp; Detalhes</li></a>
+                    <a href="financeiro.php"><li><img src="../img/coin.png" /> &nbsp; Financeiro</li></a>
+                    <a href="documentos.php"><li><img src="../img/file.png" /> &nbsp; Documentos</li></a>
+                    <a href="atendimento.php"><li><img src="../img/conversation.png" /> &nbsp; Atendimento</li></a>
                 </ul>
             </div>
             <div class="divstyle" style="width: calc(100% - 280px);margin-left: 20px; padding: 25px;">
@@ -162,7 +162,7 @@ $pf = [
             </div>
         </main>
 
-        <script type="text/javascript" src="../js/contato2.js"></script>
+        <script type="text/javascript" src="js/contato.js"></script>
 
         <!-- Principal JavaScript do Bootstrap
         ================================================== -->
