@@ -17,7 +17,7 @@
 
         <script type="text/javascript">
             function login() {
-                window.location.href = "detalhes.php";
+                window.location.href = "dashboard.php";
             }
         </script>
     </head>

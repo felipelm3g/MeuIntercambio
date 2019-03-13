@@ -46,7 +46,7 @@ function grafic1() {
     var ctx = document.getElementById('grafic3').getContext('2d');
     var chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'radar',
+        type: 'bar',
 
         // The data for our dataset
         data: {
@@ -66,7 +66,7 @@ function grafic1() {
     var ctx = document.getElementById('grafic4').getContext('2d');
     var chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'pie',
+        type: 'line',
 
         // The data for our dataset
         data: {
