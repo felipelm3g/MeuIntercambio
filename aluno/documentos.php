@@ -99,16 +99,64 @@ $pf = [
                 <hr>
                 <table style="width: 100%;">
                     <tr>
-                        <td>Passagem</td>
-                        <td style="text-align: center;">Dowload</td>
+                        <th>Documentos</td>
+                        <th style="text-align: center;"></th>
+                        <th style="text-align: center;">Data</th>
+                        <th style="text-align: center;">Status</th>
                     </tr>
                     <tr>
-                        <td>opçao 1</td>
-                        <td style="text-align: center;">Dowload</td>
+                        <td><p></p></td>
                     </tr>
                     <tr>
-                        <td>Celula1</td>
-                        <td style="text-align: center;">Celula 2</td>
+                        <td>Contrato Intercâmbio</td>
+                        <td style="text-align: center;">
+                            <button type="button" style="width: 80px;" class="btn btn-info btn-sm">Download</button>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>Apólice de Seguro Saúde</td>
+                        <td style="text-align: center;">
+                            <button type="button" style="width: 80px;" class="btn btn-info btn-sm">Download</button>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>Matrícula Escola</td>
+                        <td style="text-align: center;">
+                            <button type="button" style="width: 80px;" class="btn btn-info btn-sm">Download</button>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>Carta de Acomodação</td>
+                        <td style="text-align: center;">
+                            <button type="button" style="width: 80px;" class="btn btn-info btn-sm">Download</button>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">Disponível</td>
+                    </tr>
+                    <tr>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td>Nome Documento 1</td>
+                        <td style="text-align: center;">
+                            <button type="button" style="width: 80px;" class="btn btn-success btn-sm">Enviado</button>
+                        </td>
+                        <td style="text-align: center;">10/02/2019</td>
+                        <td style="text-align: center;">Aprovado</td>
+                    </tr>
+                    <tr>
+                        <td>Nome Documento 2</td>
+                        <td style="text-align: center;">
+                            <button type="button" style="width: 80px;" class="btn btn-secondary btn-sm">Enviar</button>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">-</td>
                     </tr>
                 </table>
             </div>
