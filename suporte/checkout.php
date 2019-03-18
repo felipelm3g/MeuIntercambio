@@ -58,14 +58,14 @@
                                 <h6 class="my-0">Promoção Natal</h6>
                                 <small>Desconto de 10%</small>
                             </div>
-                            <span class="text-success">-R$650,00</span>
+                            <span class="text-success">-R$650</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
                             <span>Total (BRL)</span>
                             <strong>R$5.850</strong>
                         </li>
                     </ul>
-                    <ul class="list-group mb-3">
+                    <ul class="list-group mb-3" style="cursor: default;">
                         <li class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
                                 <h6 class="my-0">Entrada</h6>
@@ -136,7 +136,7 @@
                             <label for="endereco">Endereço</label>
                             <input type="text" class="form-control" id="endereco" placeholder="Rua exemplo, nº 0" required="">
                             <div class="invalid-feedback">
-                                Por favor, insira seu endereço de entrega.
+                                Por favor, insira o endereço do aluno.
                             </div>
                         </div>
 
