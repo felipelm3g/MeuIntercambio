@@ -143,7 +143,7 @@ $pf = [
                         <td><p></p></td>
                     </tr>
                     <tr>
-                        <td>Nome Documento 1</td>
+                        <td>Passaporte</td>
                         <td style="text-align: center;">
                             <button type="button" style="width: 80px;" class="btn btn-success btn-sm">Enviado</button>
                         </td>
@@ -151,9 +151,9 @@ $pf = [
                         <td style="text-align: center;">Aprovado</td>
                     </tr>
                     <tr>
-                        <td>Nome Documento 2</td>
+                        <td>Identidade e CPF</td>
                         <td style="text-align: center;">
-                            <button type="button" style="width: 80px;" class="btn btn-secondary btn-sm">Enviar</button>
+                            <button type="button" style="width: 80px;" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#uploadModal">Enviar</button>
                         </td>
                         <td style="text-align: center;">-</td>
                         <td style="text-align: center;">-</td>
@@ -161,6 +161,31 @@ $pf = [
                 </table>
             </div>
         </main>
+
+        <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Upload de arquivos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Selecione seu arquivo</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script type="text/javascript" src="js/contato.js"></script>
 
