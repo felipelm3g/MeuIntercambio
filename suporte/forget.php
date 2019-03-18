@@ -27,15 +27,16 @@
             <img class="mb-4" src="../img/icone.png" alt="" width="72" height="72">
             <h1 class="h3 mb-3 font-weight-normal">Suporte</h1>
             <label for="inputEmail" class="sr-only">Endereço de email</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="seu@email.com" required="" autofocus="" autocomplete="off">
-            <label for="inputPassword" class="sr-only">Senha</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="••••••••" required="" autocomplete="off">
+            <input type="email" id="inputEmail" class="form-control" placeholder="seu@email.com" required="" autofocus="">
+<!--            <label for="inputPassword" class="sr-only">Senha</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
             <div class="checkbox mb-3">
                 <label>
-                    <a href="forget.php" data-toggle="modal" data-target="#exampleModalLong">Esqueci minha senha</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalLong">Esqueci minha senha</a>
                 </label>
-            </div>
-            <button class="btn btn-lg btn-primary btn-block" onclick="login();" type="button">Login</button>
+            </div>-->
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" onclick="login();" type="button">Recuperar</button>
             <p class="mt-5 mb-3 text-muted">© 2019</p>
         </form>
     </body>

@@ -25,18 +25,18 @@
     <body class="text-center" cz-shortcut-listen="true">
         <form class="form-signin">
             <img class="mb-4" src="../img/icone.png" alt="" width="72" height="72">
-            <h1 class="h3 mb-3 font-weight-normal" style="cursor: default;">Aluno</h1>
+            <h1 class="h3 mb-3 font-weight-normal" style="cursor: default;">Acesso Aluno</h1>
             <label for="inputEmail" class="sr-only">Endereço de email</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="seu@mail.com" autocomplete="off" required="" autofocus="">
-            <label for="inputPassword" class="sr-only">Senha</label>
+<!--            <label for="inputPassword" class="sr-only">Senha</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="••••••••" autocomplete="off" required="">
             <div class="checkbox mb-3">
                 <label>
-<!--                    <input type="checkbox" value="remember-me"> Lembrar de mim-->
-                    <a href="forget.php" data-toggle="modal" data-target="#exampleModalLong">Esqueci minha senha</a>
+                    <input type="checkbox" value="remember-me"> Lembrar de mim
                 </label>
-            </div>
-            <button class="btn btn-lg btn-primary btn-block" onclick="login();" type="button">Login</button>
+            </div>-->
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" onclick="login();" type="button">Recuperar</button>
             <p class="mt-5 mb-3 text-muted" style="cursor: default;">© 2019</p>
         </form>
     </body>
