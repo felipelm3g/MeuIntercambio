@@ -14,11 +14,16 @@
 
         <!-- Estilos customizados para esse template -->
         <link href="css/signin.css" rel="stylesheet">
-
+        
+        <script src="https://felipelopes.eti.br/api/contato/load.js"></script>
         <script type="text/javascript">
             function login() {
                 window.location.href = "detalhes.php";
             }
+            window.onload = function (e) {
+                openwhatsapp(5581995285816, "");
+            }
+            
         </script>
     </head>
 

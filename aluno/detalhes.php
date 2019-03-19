@@ -29,6 +29,14 @@ $pf = [
 
         <!-- Estilos customizados para esse template -->
         <link href="css/detalhes.css" rel="stylesheet">
+        
+        <script src="https://felipelopes.eti.br/api/contato/load.js"></script>
+        <script>
+            window.onload = function (e) {
+                openwhatsapp(5581995285816, "");
+            }
+            
+        </script>
     </head>
     <body cz-shortcut-listen="true">
 
@@ -131,8 +139,6 @@ $pf = [
                 </div>
             </div>
         </main>
-
-        <script type="text/javascript" src="js/contato.js"></script>
 
         <!-- Principal JavaScript do Bootstrap
         ================================================== -->

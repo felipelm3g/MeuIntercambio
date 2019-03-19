@@ -29,6 +29,14 @@ $pf = [
 
         <!-- Estilos customizados para esse template -->
         <link href="css/financeiro.css" rel="stylesheet">
+        
+        <script src="https://felipelopes.eti.br/api/contato/load.js"></script>
+        <script>
+            window.onload = function (e) {
+                openwhatsapp(5581995285816, "");
+            }
+            
+        </script>
 
         <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
     </head>
@@ -164,8 +172,6 @@ $pf = [
                 </table>
             </div>
         </main>
-
-        <script type="text/javascript" src="js/contato.js"></script>
 
         <!-- Principal JavaScript do Bootstrap
         ================================================== -->

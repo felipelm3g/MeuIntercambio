@@ -17,6 +17,14 @@
 
         <!-- Estilos customizados para esse template -->
         <link href="css/carousel.css" rel="stylesheet">
+
+        <script src="https://felipelopes.eti.br/api/contato/load.js"></script>
+        <script>
+            window.onload = function (e) {
+                openwhatsapp(5581995285816, "");
+            }
+            
+        </script>
     </head>
     <body cz-shortcut-listen="true">
 
@@ -235,8 +243,6 @@
                 <p>© Meu Intercâmbio 2019 - Todos os Direitos Reservados. · <a href="#">Privacidade</a> · <a href="#">Termos</a></p>
             </footer>
         </main>
-
-        <script type="text/javascript" src="js/contato.js"></script>
 
         <!-- Principal JavaScript do Bootstrap
         ================================================== -->
