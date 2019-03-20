@@ -15,10 +15,13 @@
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="js/grafico1.js"></script>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <header style="float: left; width: 100%;">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
                     <img src="../img/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     Meu Intercâmbio
@@ -46,6 +49,12 @@
                 </div>
             </nav>
         </header>
+
+        <main style="float: left; width: 100%;">
+            <div style="float: left; width: 600px; height: 500px;">
+                <canvas id="myChart1"></canvas>
+            </div>
+        </main>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
