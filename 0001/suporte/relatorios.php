@@ -15,10 +15,29 @@
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <style type="text/css">
+            .full {
+                float: left;
+                position: relative;
+                top:0;
+                left:0;
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                border: 0px;
+            }
+            .card {
+                float: left;
+                margin: 5px;
+                width: calc(25% - 10px);
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <header style="float: left; width: 100%;">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
                     <img src="../img/icone.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     Meu Intercâmbio
@@ -46,6 +65,49 @@
                 </div>
             </nav>
         </header>
+
+        <main style="float: left; width: 100%;">
+            <div class="card">
+                <div class="card-img-top" style="height: 200px;">
+                    <iframe class="full" src="grafico.php?grc=01"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top" style="height: 200px;">
+                    <iframe class="full" src="grafico.php?grc=01"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top" style="height: 200px;">
+                    <iframe class="full" src="grafico.php?grc=01"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top" style="height: 200px;">
+                    <iframe class="full" src="grafico.php?grc=01"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
+                </div>
+            </div>
+        </main>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

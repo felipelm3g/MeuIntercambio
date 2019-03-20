@@ -31,8 +31,8 @@ window.onload = function (e) {
             title: {
                 text: 'Relatório de vendas'
             },
-            responsive: true,
-            maintainAspectRatio: true,
+//            responsive: true,
+//            maintainAspectRatio: true,
             scales: {
                 xAxes: [{
                         scaleLabel: {

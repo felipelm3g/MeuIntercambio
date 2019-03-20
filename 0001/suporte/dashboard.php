@@ -16,8 +16,6 @@
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-        <script src="js/grafico1.js"></script>
     </head>
     <body>
         <header style="float: left; width: 100%;">
@@ -50,11 +48,40 @@
             </nav>
         </header>
 
-        <main style="float: left; width: 100%;">
-            <div style="float: left; width: 600px; height: 500px;">
-                <canvas id="myChart1"></canvas>
-            </div>
-        </main>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td width="25%">
+                        <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                            <img src="../img/users.png" width="60" style="margin: 10px;" />
+                            <h3 style="opacity: 0.5;">Clientes</h3>
+                            <h2>0</h2>
+                        </div>
+                    </td>
+                    <td width="25%">
+                        <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                            <img src="../img/vendas.png" width="60" style="margin: 10px;" />
+                            <h3 style="opacity: 0.5;">Vendas</h3>
+                            <h2>0</h2>
+                        </div>
+                    </td>
+                    <td width="25%">
+                        <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                            <img src="../img/bell.png" width="60" style="margin: 10px;" />
+                            <h3 style="opacity: 0.5;">Chamados</h3>
+                            <h2>1 <font style="opacity: 0.2;">-</font> 0 <font style="opacity: 0.2;">-</font> 0</h2>
+                        </div>
+                    </td>
+                    <td width="25%">
+                        <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
+                            <img src="../img/receber.png" width="60" style="margin: 10px;" />
+                            <h3 style="opacity: 0.5;">A Receber</h3>
+                            <h2>R$ 0,00</h2>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
