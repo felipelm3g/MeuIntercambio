@@ -69,10 +69,26 @@
                         <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
                             <img src="../img/bell.png" width="60" style="margin: 10px;" />
                             <h3 style="opacity: 0.5;">Chamados</h3>
-                            <h2>1 <font style="opacity: 0.2;">-</font> 0 <font style="opacity: 0.2;">-</font> 0</h2>
+                            <h2>1</h2>
                         </div>
                     </td>
                     <td width="25%">
+                        <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
+                            <img src="../img/receber.png" width="60" style="margin: 10px;" />
+                            <h3 style="opacity: 0.5;">A Receber</h3>
+                            <h2>R$ 0,00</h2>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 0px;" colspan="2" width="50%">
+                        <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
+                            <img src="../img/receber.png" width="60" style="margin: 10px;" />
+                            <h3 style="opacity: 0.5;">A Receber</h3>
+                            <h2>R$ 0,00</h2>
+                        </div>
+                    </td>
+                    <td style="border: 0px;" colspan="2" width="50%">
                         <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
                             <img src="../img/receber.png" width="60" style="margin: 10px;" />
                             <h3 style="opacity: 0.5;">A Receber</h3>
