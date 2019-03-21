@@ -1,16 +1,14 @@
-
-
 window.onload = function (e) {
     
     var legends = true;
     if (window.frameElement) {
         legends = false;
     }
-    
+
     var ctx = document.getElementById('myChart').getContext('2d');
 
     var chart = new Chart(ctx, {
-        type: 'line',
+        type: 'bar',
         data: {
             labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
             datasets: [{

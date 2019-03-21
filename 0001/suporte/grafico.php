@@ -22,16 +22,19 @@
             switch ($_GET["grc"]) {
                 case 1:
                     echo "<script src='js/grafico1.js'></script>";
-                    $txt = "<canvas id = 'myChart1' class = 'principal'></canvas>";
+                    break;
+                
+                case 2:
+                    echo "<script src='js/grafico2.js'></script>";
                     break;
 
                 default:
-//                    header('Location: dashboard.php');
+                    header('Location: dashboard.php');
                     break;
             }
         } else {
-//            header('Location: dashboard.php');
-//            exit;
+            header('Location: dashboard.php');
+            exit;
         }
         ?>
 
@@ -50,15 +53,14 @@
 
         <script type="text/javascript">
             setInterval(function () {
-                document.getElementById("myChart1").style.height = "0px";
-                document.getElementById("myChart1").style.height = "100%";
+                document.getElementById("myChart").style.height = "0px";
+                document.getElementById("myChart").style.height = "100%";
             }, 1);
         </script>
     </head>
     <body>
-        <?php
-        echo $txt;
-        ?>
+        
+        <canvas id = 'myChart' class = 'principal'></canvas>
 
         <!--Optional JavaScript -->
         <!--jQuery first, then Popper.js, then Bootstrap JS -->

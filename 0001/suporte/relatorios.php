@@ -72,7 +72,7 @@
                     <iframe class="full" src="grafico.php?grc=01"></iframe>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Vendas p/ Dia</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
                 </div>
@@ -82,7 +82,7 @@
                     <iframe class="full" src="grafico.php?grc=01"></iframe>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Vendas p/ Semana</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
                 </div>
@@ -92,7 +92,7 @@
                     <iframe class="full" src="grafico.php?grc=01"></iframe>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Vendas p/ Mês</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
                 </div>
@@ -102,7 +102,7 @@
                     <iframe class="full" src="grafico.php?grc=01"></iframe>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Vendas p/ Ano</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
                 </div>

@@ -48,56 +48,54 @@
             </nav>
         </header>
 
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td width="25%">
-                        <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
-                            <img src="../img/users.png" width="60" style="margin: 10px;" />
-                            <h3 style="opacity: 0.5;">Clientes</h3>
-                            <h2>0</h2>
-                        </div>
-                    </td>
-                    <td width="25%">
-                        <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
-                            <img src="../img/vendas.png" width="60" style="margin: 10px;" />
-                            <h3 style="opacity: 0.5;">Vendas</h3>
-                            <h2>0</h2>
-                        </div>
-                    </td>
-                    <td width="25%">
-                        <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
-                            <img src="../img/bell.png" width="60" style="margin: 10px;" />
-                            <h3 style="opacity: 0.5;">Chamados</h3>
-                            <h2>1</h2>
-                        </div>
-                    </td>
-                    <td width="25%">
-                        <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
-                            <img src="../img/receber.png" width="60" style="margin: 10px;" />
-                            <h3 style="opacity: 0.5;">A Receber</h3>
-                            <h2>R$ 0,00</h2>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: 0px;" colspan="2" width="50%">
-                        <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
-                            <img src="../img/receber.png" width="60" style="margin: 10px;" />
-                            <h3 style="opacity: 0.5;">A Receber</h3>
-                            <h2>R$ 0,00</h2>
-                        </div>
-                    </td>
-                    <td style="border: 0px;" colspan="2" width="50%">
-                        <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
-                            <img src="../img/receber.png" width="60" style="margin: 10px;" />
-                            <h3 style="opacity: 0.5;">A Receber</h3>
-                            <h2>R$ 0,00</h2>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <main style="float: left; width: 100%;padding: 10px;">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td width="25%"  style="border: 0px;">
+                            <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                                <img src="../img/users.png" width="60" style="margin: 10px;" />
+                                <h3 style="opacity: 0.5;">Clientes</h3>
+                                <h2>0</h2>
+                            </div>
+                        </td>
+                        <td width="25%"  style="border: 0px;">
+                            <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                                <img src="../img/vendas.png" width="60" style="margin: 10px;" />
+                                <h3 style="opacity: 0.5;">Vendas</h3>
+                                <h2>0</h2>
+                            </div>
+                        </td>
+                        <td width="25%"  style="border: 0px;">
+                            <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                                <img src="../img/bell.png" width="60" style="margin: 10px;" />
+                                <h3 style="opacity: 0.5;">Chamados</h3>
+                                <h2>1</h2>
+                            </div>
+                        </td>
+                        <td width="25%"  style="border: 0px;">
+                            <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
+                                <img src="../img/receber.png" width="60" style="margin: 10px;" />
+                                <h3 style="opacity: 0.5;">A Receber</h3>
+                                <h2>R$ 0,00</h2>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 0px;" colspan="2" width="50%">
+                            <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
+                                <iframe style="width: 100%;height: 450px;border: 0px;" src="grafico.php?grc=1"></iframe>
+                            </div>
+                        </td>
+                        <td style="border: 0px;" colspan="2" width="50%">
+                            <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
+                                <iframe style="width: 100%;height: 450px;border: 0px;" src="grafico.php?grc=2"></iframe>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
