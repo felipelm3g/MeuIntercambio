@@ -47,6 +47,63 @@
             </nav>
         </header>
 
+        <main style="float: left; width: 100%;padding: 15px;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" style="border: 0px;">#</th>
+                        <th scope="col" style="border: 0px;">Nome</th>
+                        <th scope="col" style="border: 0px;">País</th>
+                        <th scope="col" style="border: 0px;">Embarque</th>
+                        <th scope="col" style="border: 0px;">Passagem</th>
+                        <th scope="col" style="border: 0px;">Acomodação</th>
+                        <th scope="col" style="border: 0px;">Seguro</th>
+                        <th scope="col" style="border: 0px;">Valor</th>
+                        <th scope="col" style="border: 0px;">Parcela</th>
+                        <th scope="col" style="border: 0px;">Em dia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Felipe Lopes</td>
+                        <td>Irlanda</td>
+                        <td>05/04/2019</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>R$ 800</td>
+                        <td>12x</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Juliana Silva</td>
+                        <td>Malta</td>
+                        <td>05/04/2019</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>R$ 800</td>
+                        <td>12x</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Luara Negreios</td>
+                        <td>E.U.A</td>
+                        <td>05/04/2019</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>R$ 800</td>
+                        <td>12x</td>
+                        <td>Sim</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
