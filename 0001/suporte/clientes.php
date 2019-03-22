@@ -15,6 +15,27 @@
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <script>
+            var url = window.location.href;
+            url = url.split("#");
+
+            window.onload = function (e) {
+                try {
+                    document.getElementById(url[1]).style.backgroundColor = '#3131';
+                } catch (e) {
+
+                }
+            }
+        </script>
+        <style>
+            .table tbody tr {
+                -webkit-transition: 0.5s ease-in;
+                -moz-transition: 0.5s ease-in;
+                -o-transition: 0.5s ease-in;
+                transition: 0.5s ease-in;
+            }
+        </style>
     </head>
     <body>
         <header style="float: left; width: 100%;">
@@ -36,11 +57,14 @@
                             <a class="nav-link" href="vendas.php">Vendas<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Clientes<span class="glyphicon glyphicon-euro"></span></a>
+                            <a class="nav-link" href="clientes.php">Clientes<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="relatorios.php">Relatórios<span class="glyphicon glyphicon-euro"></span></a>
+                            <a class="nav-link" href="chamados.php">Chamados<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
+<!--                        <li class="nav-item">
+                            <a class="nav-link" href="relatorios.php">Relatórios<span class="glyphicon glyphicon-euro"></span></a>
+                        </li>-->
                     </ul>
                     <a href="index.php"><button type="button" class="btn btn-outline-danger my-2 my-sm-0">Sair</button></a>
                 </div>
@@ -58,13 +82,12 @@
                         <th scope="col" style="border: 0px;">Passagem</th>
                         <th scope="col" style="border: 0px;">Acomodação</th>
                         <th scope="col" style="border: 0px;">Seguro</th>
-                        <th scope="col" style="border: 0px;">Valor</th>
-                        <th scope="col" style="border: 0px;">Parcela</th>
+                        <th scope="col" style="border: 0px;">Venda</th>
                         <th scope="col" style="border: 0px;">Em dia</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="FelipeLopes">
                         <th scope="row">1</th>
                         <td>Felipe Lopes</td>
                         <td>Irlanda</td>
@@ -72,11 +95,10 @@
                         <td>Sim</td>
                         <td>Sim</td>
                         <td>Sim</td>
-                        <td>R$ 800</td>
-                        <td>12x</td>
+                        <td><a href="vendas.php#A0A000"><b>A0A000</b></a></td>
                         <td>Sim</td>
                     </tr>
-                    <tr>
+                    <tr id="JulianaSilva">
                         <th scope="row">2</th>
                         <td>Juliana Silva</td>
                         <td>Malta</td>
@@ -84,11 +106,10 @@
                         <td>Sim</td>
                         <td>Sim</td>
                         <td>Sim</td>
-                        <td>R$ 800</td>
-                        <td>12x</td>
+                        <td><a href="vendas.php#A0A001"><b>A0A001</b></a></td>
                         <td>Sim</td>
                     </tr>
-                    <tr>
+                    <tr id="LuaraNegreios">
                         <th scope="row">3</th>
                         <td>Luara Negreios</td>
                         <td>E.U.A</td>
@@ -96,8 +117,7 @@
                         <td>Sim</td>
                         <td>Sim</td>
                         <td>Sim</td>
-                        <td>R$ 800</td>
-                        <td>12x</td>
+                        <td><a href="vendas.php#A0A002"><b>A0A002</b></a></td>
                         <td>Sim</td>
                     </tr>
                 </tbody>

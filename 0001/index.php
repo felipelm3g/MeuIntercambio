@@ -23,7 +23,6 @@
             window.onload = function (e) {
                 openwhatsapp(5581995285816, "");
             }
-            
         </script>
     </head>
     <body cz-shortcut-listen="true">

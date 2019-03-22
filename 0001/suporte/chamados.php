@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="icon" href="../img/favicon.ico">
 
-        <title>Meu Intercâmbio - Relatórios</title>
+        <title>Meu Intercâmbio - Vendas</title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,22 +16,27 @@
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-        <style type="text/css">
-            .full {
-                float: left;
-                position: relative;
-                top:0;
-                left:0;
-                width: 100%;
-                height: 100%;
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
+        <script>
+            var url = window.location.href;
+            if (url.match(/#/)) {
+                
+                url = url.split("#");
+
+                window.onload = function (e) {
+                    try {
+                        document.getElementById(url[1]).style.backgroundColor = '#3131';
+                    } catch (e) {
+                        location.href = url[0];
+                    }
+                }
             }
-            .card {
-                float: left;
-                margin: 5px;
-                width: calc(25% - 10px);
+        </script>
+        <style>
+            .table tbody tr {
+                -webkit-transition: 0.5s ease-in;
+                -moz-transition: 0.5s ease-in;
+                -o-transition: 0.5s ease-in;
+                transition: 0.5s ease-in;
             }
         </style>
     </head>
@@ -57,59 +62,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="clientes.php">Clientes<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="chamados.php">Chamados<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Relatórios<span class="glyphicon glyphicon-euro"></span></a>
-                        </li>
+<!--                        <li class="nav-item">
+                            <a class="nav-link" href="relatorios.php">Relatórios<span class="glyphicon glyphicon-euro"></span></a>
+                        </li>-->
                     </ul>
                     <a href="index.php"><button type="button" class="btn btn-outline-danger my-2 my-sm-0">Sair</button></a>
                 </div>
             </nav>
         </header>
 
-        <main style="float: left; width: 100%;">
-            <div class="card">
-                <div class="card-img-top" style="height: 200px;">
-                    <iframe class="full" src="grafico.php?grc=01"></iframe>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Vendas p/ Dia</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img-top" style="height: 200px;">
-                    <iframe class="full" src="grafico.php?grc=01"></iframe>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Vendas p/ Semana</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img-top" style="height: 200px;">
-                    <iframe class="full" src="grafico.php?grc=01"></iframe>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Vendas p/ Mês</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img-top" style="height: 200px;">
-                    <iframe class="full" src="grafico.php?grc=01"></iframe>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Vendas p/ Ano</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="grafico.php?grc=01" target="_blank" class="btn btn-primary">Visualizar</a>
-                </div>
-            </div>
+        <main style="float: left; width: 100%;padding: 15px;">
+            
         </main>
 
         <!-- Optional JavaScript -->

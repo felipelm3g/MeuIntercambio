@@ -15,7 +15,13 @@
 
         <!-- Principal CSS do Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-
+        
+        <style>
+            .link {
+                color: #000;
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
         <header style="float: left; width: 100%;">
@@ -31,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Dashboard<span class="glyphicon glyphicon-euro"></span></a>
+                            <a class="nav-link" href="dashboard.php">Dashboard<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="vendas.php">Vendas<span class="glyphicon glyphicon-euro"></span></a>
@@ -40,8 +46,11 @@
                             <a class="nav-link" href="clientes.php">Clientes<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="relatorios.php">Relatórios<span class="glyphicon glyphicon-euro"></span></a>
+                            <a class="nav-link" href="chamados.php">Chamados<span class="glyphicon glyphicon-euro"></span></a>
                         </li>
+                        <!--                        <li class="nav-item">
+                                                    <a class="nav-link" href="relatorios.php">Relatórios<span class="glyphicon glyphicon-euro"></span></a>
+                                                </li>-->
                     </ul>
                     <a href="index.php"><button type="button" class="btn btn-outline-danger my-2 my-sm-0">Sair</button></a>
                 </div>
@@ -67,11 +76,13 @@
                             </div>
                         </td>
                         <td width="25%"  style="border: 0px;">
-                            <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
-                                <img src="../img/bell.png" width="60" style="margin: 10px;" />
-                                <h3 style="opacity: 0.5;">Chamados</h3>
-                                <h2>1</h2>
-                            </div>
+                            <a href="chamados.php" style="text-decoration:none;">
+                                <div style="width:100%;background-color:rgba(0,0,0,0.1);text-align:center;padding:10px;border-radius:3px;">
+                                    <img src="../img/bell.png" width="60" style="margin: 10px;" />
+                                    <h3 class="link" style="opacity: 0.5;">Chamados</h3>
+                                    <h2 class="link">1</h2>
+                                </div>
+                            </a>
                         </td>
                         <td width="25%"  style="border: 0px;">
                             <div style="width: 100%;background-color: rgba(0,0,0,0.1);text-align: center; padding: 10px;border-radius: 3px;">
