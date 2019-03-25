@@ -24,10 +24,10 @@ CREATE TABLE IF NOT EXISTS T_USER (
 );
 
 INSERT INTO T_USER (USER_MAIL, USER_PASS, USER_NOME, USER_END)
-VALUES ('natashow@gmail', 'MTIzNDU=', 'Natasha', 'Av. Engenheiro Abdias, 45');
+VALUES ('natashow@gmail.com', 'MTIzNDU=', 'Natasha', 'Av. Engenheiro Abdias, 45');
 INSERT INTO T_USER (USER_MAIL, USER_PASS, USER_NOME, USER_END)
 VALUES ('felipe.lm@hotmail.com.br', 'MTIzNDU=', 'Felipe', 'Av. Engenheiro Abdias, 2041');
 INSERT INTO T_USER (USER_MAIL, USER_PASS, USER_NOME, USER_END)
-VALUES ('julionetto', 'MTIzNDU=', 'Julio Netto', 'Av. Engenheiro Abdias, 10');
+VALUES ('julio@gmail.com', 'MTIzNDU=', 'Julio Netto', 'Av. Engenheiro Abdias, 10');
 
 SELECT * FROM T_USER;
