@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+    session_destroy();
+    header('Location: index.php');
+    exit;
+}
+?>
 <!doctype html>
 <html lang="pt-BR">
     <head>
@@ -14,6 +22,29 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" />
+
+        <script>
+
+            function Delete(id) {
+                document.getElementById("exampleModalLabel").innerHTML = "Tem certeza?";
+                document.getElementById("texto").innerHTML = "Depois de confirmar a exclusão não será mais possível recuperar essa informação.";
+                document.getElementById("writebtn").innerHTML = "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Não</button>";
+                document.getElementById("writebtn").innerHTML += "<button type='button' class='btn btn-primary' data-dismiss='modal' onclick='Deletar(" + id + ")'>Sim</button>";
+                $('#exampleModal').modal();
+            }
+
+            function Deletar(id) {
+                window.location.href = "sys/forms/delete.php?del=" + id;
+            }
+
+            function Logout() {
+                document.getElementById("exampleModalLabel").innerHTML = "Tem certeza?";
+                document.getElementById("texto").innerHTML = "Depois de deslogar não será mais possível acessar o sistema, a menos que se logue novamente.";
+                document.getElementById("writebtn").innerHTML = "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Não</button>";
+                document.getElementById("writebtn").innerHTML += "<button type='button' onclick='window.location.href = \"sys/forms/deslogar.php\";' class='btn btn-primary'>Sim</button>";
+                $('#exampleModal').modal();
+            }
+        </script>
     </head>
     <body>
         <header style="float: left;width: 100%;">
@@ -33,7 +64,7 @@
                             <a class="nav-link" href="clientes.php">Clientes</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="button" onclick="Logout()">Logout</button>
                 </div>
             </nav>
         </header>
@@ -57,7 +88,7 @@
                         <td>Av. Engenheiro Domingos Ferreira, 33</td>
                         <td>Alcool - Diesel - Gasolina - Gás</td>
                         <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
-                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
+                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" onclick="Delete(1)" title="Excluir">✖</button></td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
@@ -65,7 +96,7 @@
                         <td>Av. Conselheiro Aguiar, 105</td>
                         <td>Alcool - Diesel - Gasolina</td>
                         <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
-                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
+                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" onclick="Delete(2)" title="Excluir">✖</button></td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
@@ -73,11 +104,30 @@
                         <td>Av. Alfredo Lisboa, 2044</td>
                         <td>Alcool - Gasolina</td>
                         <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
-                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
+                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" onclick="Delete(3)" title="Excluir">✖</button></td>
                     </tr>
                 </tbody>
             </table>
         </main>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="texto">teste</p>
+                    </div>
+                    <div class="modal-footer" id="writebtn">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

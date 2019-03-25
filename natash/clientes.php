@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+    session_destroy();
+    header('Location: index.php');
+    exit;
+}
+?>
 <!doctype html>
 <html lang="pt-BR">
     <head>
@@ -14,6 +22,15 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" />
+        <script>
+            function Logout() {
+                document.getElementById("exampleModalLabel").innerHTML = "Tem certeza?";
+                document.getElementById("texto").innerHTML = "Depois de deslogar não será mais possível acessar o sistema, a menos que se logue novamente.";
+                document.getElementById("writebtn").innerHTML = "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Não</button>";
+                document.getElementById("writebtn").innerHTML += "<button type='button' onclick='window.location.href = \"sys/forms/deslogar.php\";' class='btn btn-primary'>Sim</button>";
+                $('#exampleModal').modal();
+            }
+        </script>
     </head>
     <body>
         <header style="float: left;width: 100%;">
@@ -33,11 +50,11 @@
                             <a class="nav-link" href="clientes.php">Clientes</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="button" onclick="Logout()">Logout</button>
                 </div>
             </nav>
         </header>
-        
+
         <main style="float: left;width: 100%;">
             <table class="table">
                 <thead>
@@ -50,30 +67,57 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Felipe Lopes</td>
-                        <td>Av. Engenheiro Domingos Ferreira, 33</td>
-                        <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
-                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Natasha Silva</td>
-                        <td>Av. Conselheiro Aguiar, 105</td>
-                        <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
-                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Henrique Cordeiro</td>
-                        <td>Av. Alfredo Lisboa, 2044</td>
-                        <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
-                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
-                    </tr>
+                    <?php
+                    require_once 'sys/class/Database.php';
+
+                    //Cria conexão com banco de dados
+                    $conexao = Database::conexao();
+
+                    //Cria o comando SQL
+                    $sql = "SELECT * FROM T_USER";
+
+                    //Executa o comando SQL
+                    $stmt = $conexao->query($sql);
+                    
+                    $contador = 1;
+                    //Prepara o resultado em um Array[]
+                    while ($consulta = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                        echo "<tr>";
+                        echo "<th scope='row'>{$contador}</th>";
+                        echo "<td>{$consulta['USER_NOME']}</td>";
+                        echo "<td>{$consulta['USER_END']}</td>";
+                        echo "<td><a href='#'><img src='img/lupa.png' width='25'/></a></td>";
+                        echo "<td><button type='button' title='Editar'>✎</button> &nbsp; <button type='button' title='Excluir'>✖</button></td>";
+                        echo "<tr>";
+                        
+                        $contador++;
+                    }
+
+                    //Desfaz conexão com banco de dados
+                    $conexao = null;
+                    ?>
                 </tbody>
             </table>
         </main>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="texto">teste</p>
+                    </div>
+                    <div class="modal-footer" id="writebtn">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

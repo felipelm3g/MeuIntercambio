@@ -20,6 +20,13 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
+
+            window.onkeypress = function (e) {
+                if (e['keyCode'] == 13) {
+                    login();
+                }
+            }
+
             function login() {
                 var info = {
                     'email': document.getElementById('inputEmail').value,
@@ -42,7 +49,7 @@
                             } else {
                                 switch (parseInt(data)) {
                                     case 1:
-                                        document.getElementById("texto").innerHTML = "E-mail não cadastrado ou inválido.";  
+                                        document.getElementById("texto").innerHTML = "E-mail não cadastrado ou inválido.";
                                         $('#exampleModal').modal();
                                         console.log("E-mail não cadastrado ou inválido.");
                                         break;
