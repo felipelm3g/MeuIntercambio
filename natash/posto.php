@@ -33,13 +33,51 @@
                             <a class="nav-link" href="clientes.php">Clientes</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
                 </div>
             </nav>
         </header>
+
+        <main style="float: left;width: 100%;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Posto</th>
+                        <th scope="col">Endereço</th>
+                        <th scope="col">Serviços</th>
+                        <th scope="col">Hist.</th>
+                        <th scope="col">Opções</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Posto Shell 1</td>
+                        <td>Av. Engenheiro Domingos Ferreira, 33</td>
+                        <td>Alcool - Diesel - Gasolina - Gás</td>
+                        <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
+                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Posto Shell 2</td>
+                        <td>Av. Conselheiro Aguiar, 105</td>
+                        <td>Alcool - Diesel - Gasolina</td>
+                        <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
+                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Posto Ipiranga</td>
+                        <td>Av. Alfredo Lisboa, 2044</td>
+                        <td>Alcool - Gasolina</td>
+                        <td><a href="#"><img src="img/lupa.png" width="25"/></a></td>
+                        <td><button type="button" title="Editar">✎</button> &nbsp; <button type="button" title="Excluir">✖</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
