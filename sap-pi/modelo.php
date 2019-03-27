@@ -8,7 +8,10 @@ $xml->setIndent(4);
 $xml->startElement("xml");
 $xml->writeAttribute('version', '1.0');  
 
-$xml->writeElement("total", 0);
+$xml->startElement("item");
+$xml->writeElement("nome", " Nome do produto ");
+$xml->writeElement("valor"," Valor do produto ");
+$xml->endElement();
 
 $xml->endElement();
 $xml->endElement();
